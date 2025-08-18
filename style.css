@@ -81,3 +81,26 @@ p {
     background-color: #f5f7fa;
     padding: 0.05px 5px;
 }
+
+.leftBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 60px;
+    background-color: #4a90e2;
+    overflow-x: hidden;
+    transition: width 0.3s;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.leftBar a img {
+  width: 24px;   /* largura fixa */
+  height: 24px;  /* altura fixa */
+  object-fit: contain; /* mantém proporção */
+  vertical-align: middle; /* alinha com o texto */
+  padding: 5px 15px;
+}
