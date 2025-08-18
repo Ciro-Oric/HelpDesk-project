@@ -76,3 +76,8 @@ p {
     white-space: pre-wrap; /* Garante que o texto quebre certinho */
     margin-bottom: 10px;
 }
+
+.wall {
+    background-color: #f5f7fa;
+    padding: 0.05px 5px;
+}
