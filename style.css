@@ -104,3 +104,20 @@ p {
   vertical-align: middle; /* alinha com o texto */
   padding: 5px 15px;
 }
+
+.popup {
+    position: fixed; /* Fixa o elemento na tela */
+    bottom: 20px;    /* Distância do canto inferior da tela */
+    right: 20px;     /* Distância do canto direito da tela */
+    background-color: rgba(155, 240, 106, 0.89); /* Cor de fundo, opcional */
+    /*color: white;    /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas, opcional */
+    box-shadow: 0 4px 8px  rgba(155, 240, 106, 0.89); /* Sombra opcional */
+    z-index: 1000; /* Garante que o elemento fique acima de outros */   
+    display: none;
+}
+
+.popup p {
+    background-color:  rgba(155, 240, 106, 0.89) ;
+}

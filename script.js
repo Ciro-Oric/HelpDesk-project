@@ -36,7 +36,11 @@ document.getElementById("btnMaiusculo").addEventListener("click", function() {
 
 function copiarTexto(texto){
     navigator.clipboard.writeText(texto).then (() => {
-        alert("Resultado copiado para área de transferência");
+        const div = document.getElementById('popupmaster')
+        div.style.display = 'flex';
+        setTimeout(() => {
+            div.style.display = 'none';
+        }, 1500);
     });
 }
 
