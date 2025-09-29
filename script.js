@@ -1,6 +1,7 @@
 document.getElementById("btnMaiusculo").addEventListener("click", function() {
             let texto = document.getElementById("maiusculo").value;
             document.getElementById("resultadoMaiusculo").textContent = texto.toUpperCase();
+            document.getElementsById("maiusculo").value = ('');
         });
 
         
@@ -15,6 +16,7 @@ document.getElementById("btnMaiusculo").addEventListener("click", function() {
             let cpf = document.getElementById("semPonto").value;
             let apenasNumeros = cpf.replace(/\D/g, "");
             document.getElementById("resultadoCpf").textContent = apenasNumeros;
+            document.getElementById("semPonto").value = ('');
         });
 
         document.getElementById("copyCpf").addEventListener("click", function() {
