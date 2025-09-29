@@ -1,7 +1,7 @@
 document.getElementById("btnMaiusculo").addEventListener("click", function() {
             let texto = document.getElementById("maiusculo").value;
             document.getElementById("resultadoMaiusculo").textContent = texto.toUpperCase();
-            document.getElementsById("maiusculo").value = ('');
+            document.getElementById("maiusculo").value = ('');
         });
 
         
